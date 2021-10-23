@@ -8,6 +8,9 @@ from utilities.BaseClass import BaseClass
 
 
 class TestHomePage(BaseClass):
+    print("New Branch develop")
+    print("Person X assigned")
+
 
     loggername = inspect.stack()[1][3]
     logger = logging.getLogger(loggername)

@@ -12,6 +12,8 @@ from utilities.BaseClass import BaseClass
 class TestOne(BaseClass):
 
     def test_e2e(self):
+        print("New Branch develop")
+        print("Person Y assigned")
         phoneName = "Samsung Note 8"
         print("Changes made here part 2")
 
