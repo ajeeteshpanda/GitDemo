@@ -13,8 +13,10 @@ class TestOne(BaseClass):
 
     def test_e2e(self):
         phoneName = "Samsung Note 8"
+        print("Changes made here part 2")
 
         log = self.getLogger()
+        print("Changes made here part 3")
 
         homePage = HomePage(self.driver)
 

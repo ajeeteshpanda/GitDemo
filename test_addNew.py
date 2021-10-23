@@ -12,6 +12,7 @@ class TestHomePage(BaseClass):
     a = 10
     b = 20
     print(a+b)
+    print("Changes made here part 1")
     loggername = inspect.stack()[1][3]
     logger = logging.getLogger(loggername)
     fileHandler = logging.FileHandler('logfile.log')

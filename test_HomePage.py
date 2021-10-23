@@ -30,6 +30,7 @@ class TestHomePage(BaseClass):
         self.log.info("Gender selected is: " + getData["gender"])
         self.selectOptionByText(homepage.getGender(), getData["gender"])
         homepage.getSubmit().click()
+        print("Changes made here part 4")
 
         alertText = homepage.getSuccessMessage().text
         self.log.info("Message displayed is: " + alertText)
