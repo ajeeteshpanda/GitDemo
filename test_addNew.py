@@ -9,6 +9,9 @@ from utilities.BaseClass import BaseClass
 
 class TestHomePage(BaseClass):
 
+    a = 10
+    b = 20
+    print(a+b)
     loggername = inspect.stack()[1][3]
     logger = logging.getLogger(loggername)
     fileHandler = logging.FileHandler('logfile.log')
